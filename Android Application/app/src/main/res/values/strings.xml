@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectDraft#3</string>
+    <string name="title_activity_login">Internet Scavenger Hunt</string>
+    <string name="type_username_here">Type username here</string>
+    <string name="title">ł₦₮ɆⱤ₦Ɇ₮ ₴₵₳VɆ₦₲ɆⱤ ⱧɄ₦₮</string>
+    <string name="button"> > > </string>
+    <string name="pirate_head_speaker">Pirate head/speaker</string>
+    <string name="go_to_menu">Go to menu</string>
+    <string name="the_great_internet_scavenger_hunt">The Great Internet Scavenger Hunt</string>
+    <string name="level_select">Level Select</string>
+    <string name="high_scores">High Scores</string>
+    <string name="exit_game">Exit Game</string>
+    <string name="go_to_introduction"><![CDATA[Go to introduction]]></string>
+    <string name="levelsButton">LevelsButton</string>
+    <string name="exit_app">Exit App</string>
+    <string name="go_to_level_select">Go to level select</string>
+    <string name="sunset">sunset</string>
+    <string name="_0">0</string>
+    <string name="asf">/</string>
+    <string name="_6">6</string>
+    <string name="coverImage">coverImage</string>
+    <string name="quit">Quit</string>
+</resources>

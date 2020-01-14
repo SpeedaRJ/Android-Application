@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Introduction2">
+
+    <TextView
+        android:id="@+id/background"
+        android:rotation="180"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/intro_screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/pirate_head"
+        android:layout_width="325dp"
+        android:layout_height="424dp"
+        android:alpha="0.8"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@drawable/pirate_head"
+        android:contentDescription="@string/pirate_head_speaker" />
+
+    <Button
+        android:id="@+id/continue_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:background="#006B4F4F"
+        android:clickable="false"
+        android:text="@string/button"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toBottomOf="@+id/pirate_head"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <believe.cht.fadeintextview.TextView
+        android:id="@+id/intro"
+        android:layout_width="278dp"
+        android:layout_height="101dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/pirate_head"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/pirate_head"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677"
+        app:letterDuration="250" />
+
+    <TextView
+        android:id="@+id/next_menu"
+        android:layout_width="83dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:text="@string/go_to_menu"
+        android:textColor="#FFFFFFFF"
+        android:alpha="0"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/continue_text"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="@+id/continue_text"
+        app:layout_constraintTop_toBottomOf="@+id/continue_text"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/sunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="236dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sunset"
+        android:contentDescription="@string/sunset" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
